@@ -1,0 +1,147 @@
+html, body
+{
+    margin: 0;
+    height: 2000px;
+}
+
+section
+{
+    height: 800px;
+    background: url(https://www.starbucks.co.kr/common/img/main/mob_fav_prod_bg_new.jpg) fixed;
+}
+
+.photo
+{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+.boom{
+    position: absolute;
+    top: 550px;
+    left: 680px;
+    background-color: red;
+}
+
+h1#h11
+{
+    font-size: 6em;
+    text-align: right;
+    width: 500px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 98%;
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    animation: slidein 2s ease-out;
+}
+h1#h12
+{
+    font-size: 4.7em;
+    text-align: right;
+    width: 500px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 98%;
+    position: absolute;
+    top: 165px;
+    left: 300px;
+    animation: slidein 2s ease-out;
+}
+h1#h13
+{
+    font-size: 2.8em;
+    text-align: right;
+    width: 500px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 98%;
+    position: absolute;
+    top: 270px;
+    left: 300px;
+    animation: slidein 2s ease-out;
+}
+p#p1{
+    font-size: 1em;
+    text-align: right;
+    width: 500px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 98%;
+    position: absolute;
+    top: 460px;
+    left: 300px;
+    opacity: 1;
+    animation: slidein_sub 2.5s ease-out;
+}
+
+h2#h21{
+    font-size: 1.5em;
+    text-align: right;
+    width: 500px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 98%;
+    position: absolute;
+    top: 390px;
+    left: 300px;
+    opacity: 1;
+    animation: slidein_sub 2.5s ease-out;
+}
+
+@keyframes slidein
+{
+    from
+    {
+        left: -150px;
+        opacity: 0;
+    }
+    to
+    {
+        left: 300px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideout
+{
+    from
+    {
+        left: 300px;
+        opacity: 1;
+    }
+    to
+    {
+        left: -180px;
+        opacity: 0;
+    }
+}
+
+@keyframes slidein_sub
+{
+    from
+    {
+        left: -180px;
+        opacity: 0;
+    }
+    to
+    {
+        left: 300px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideout_sub
+{
+    from
+    {
+        left: 300px;
+        opacity: 1;
+    }
+    to
+    {
+        left: -180px;
+        opacity: 0;
+    }
+}
